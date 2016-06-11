@@ -59,68 +59,14 @@ h1 {
 	font-size: 20px;
 }
 
-#email {
-	width: 440px;
-	margin-left: 51px;
-	margin-top: 25px;
-	padding: 10px  5px;
-	
-	
-}
-
-#name {
-	width:440px;
-	margin-top: 25px;
-	padding: 10px  5px;
-	
-	
-}
-
-#text {
-	width: 953px;
-	margin:35px 0;
-	height: 200px;
-	padding: 0 0 0 5px;
-	border: none;
-    box-shadow: inset 2px 2px 3px #d3d3d3;
-    font: 18px Arial;
-	
-	
-	
-}
-
-form,input[type="text"] {
-	
-
-	
-}
-
 input {
    border: none;
    box-shadow: inset 2px 2px 3px #d3d3d3;
    font: 18px Arial;
  }
 
-#submit {
-	width: 150px;
-	height: 42px;
-	margin-left: 400px;
-	box-shadow: none;
-	color: #acacac;
-	border: 1px solid #c4c4c4;
-	font: 18px Arial;
-	background-color: #c8dd99;
-	color: #fff;
-	text-shadow:  #fff 0 0 2px;
-}
 
-
-#submit:hover {
-	
-	transform: scale(1.1);
-}
-
-#fc {
+#fb {
 	background-color: #3B5998;
 }
 
@@ -130,27 +76,36 @@ input {
 
 #tw {
 	background-color: #1da1f2;
+	
 }
 
-button {
+#email {
+	background-color: red;
+
+}
+
+article>a {
+	display: inline-block;
 	width: 150px;
-	height: 42px;
-	margin: 25px 10px 10px 10px;
+	height: 35px;
+	margin: 55px 10px 350px 10px;
 	box-shadow: none;
 	color: #fff;
 	border: 1px solid #c4c4c4;
-	font: small-caps 18px Arial;
+	font: small-caps 18px Arial;	
+	vertical-align: baseline;
+	padding-top: 10px;
+	
+		
+}
+
+article>a:hover {
 	text-shadow:  #fff 0 0 2px;
-	
-	
+	color: #fff;
 }
 
-button:hover {
+a:hover {
 	transform: scale(1.1);
-}
-
-form,input {
-	
 }
 
 article {
@@ -246,7 +201,7 @@ figure{
 }
 
 p{
-	padding-top: 30px;
+	padding-top: 25px;
 }
 
 a:hover{
