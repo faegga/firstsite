@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>jakkue</title>
-	<meta charset="utf-8">
-	<link rel ="stylesheet" href="styles/main.css"  /> 
-	<script src="#"></script>
-	<!-- Yandex.Metrika counter --> <script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter37364480 = new Ya.Metrika({ id:37364480, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script><!-- /Yandex.Metrika counter -->
-</head>
-
-<body>
-	<div class="main-container">
+	<head>
+		<title>jakkue</title>
+		<meta charset="utf-8">
+		<link rel ="stylesheet" href="styles/main.css"/> 
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<script src="#"></script>		
+		<!-- Yandex.Metrika counter --> <script type="text/javascript"> 
+		(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter37364480 = new Ya.Metrika({ id:37364480, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> 
+		<img src="https://mc.yandex.ru/watch/37364480" style="position:absolute; left:-9999px;" alt="yandex"> <!--Yandex -->
+		
+		<!-- Yandex.Metrika counter --> <script > (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter37364480 = new Ya.Metrika({ id:37364480, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <!-- /Yandex.Metrika counter -->
+		<div class="main-container">
 		<header><a  id="top" class="logo prewiew group" href="index.html">jakkue</a>	
 		</header>
 		
 		<nav class="site-menu group">
 			<ul>
 				<li>
-					<a  href="blog.html">BLOG</a>
+					<a  href="works.html">WORKS</a>
 				</li>
 				<li>
 					<a href="about.html">ABOUT</a>
@@ -27,28 +29,35 @@
 			</ul>
 		</nav>
 			
-			<div class="divider group">
+		<div class="divider group">
 			<img src="images/divider.png" alt="divider">
 		</div>	
 		
-		<article>
-			<h1>Regards strangers!</h1>
-			<p>This site created for  fun and demonstrate my personal skills in web-developing .</p>
-			<p>Feel free send me email or message your suggestions and ideas. Also you can contact me in social profiles. </p>
-			<p>...with best wishes jakkue</p>
-		<a id="fb" href = "http://facebook.com">facebook</a>
-		<a id="vk" href="https://vk.com/larcibashev">vk</a>
-		<a id="tw" href ="https://twitter.com/Faegga">twitter</a>	
-		<a id="email" href="mailto:Archiba%20Leon%20larcibashev@gmail.com">send me email</a>
-		</article>			
+		<article class="reg">
+		<h2>Regards strangers!</h2>
+			<p class="reg">This site created for  fun and demonstrate my personal skills in web-developing .</p>
+			<p class="reg">Feel free send me email or message your suggestions and ideas. Also you can contact me in social profiles. </p>
+			<p class="reg">With best wishes Jakkue.</p>
+		<a href = "http://facebook.com" id="fb">facebook</a>
+		<a href= "https://vk.com/larcibashev" id="vk">vk</a>
+		<a href = "https://twitter.com/Faegga" id="tw">twitter</a>
+		</article>
+	
+		
+		
+<form action="mail.php" method="POST">
+	<input  id="text" type="text" name="name" placeholder="your name" required>
+	<input id="email" type="email" name="email" placeholder="your email" required>
+	<textarea name="message" maxlength="500" placeholder="your message" required></textarea>
+	<input type="submit" class="btn" value="Send">
+</form>			
 		
 	<footer>
 		<p>2016 jakkue  &copy; Copyright</p>
 		<div class="divider group">
 			<img src="images/divider.png" alt="divider">
 		</div>
-	</footer>
-		
+	</footer>		
 		</div>
 </body>
 </html>
