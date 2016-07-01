@@ -20,10 +20,14 @@ $mail->FromName = "Test User";
 $mail->AddAddress("larcibashev@mail.ru");
 //$mail->AddReplyTo("mail@mail.com");
 
+$message = $_POST["message"];
+$name = $_POST["name"];
+$email = $_POST["email"];
+
 $mail->IsHTML(true);
 
-$mail->Subject = "Message from larcibashev.ru and server via SMTP Authentication";
-$mail->Body = "test";
+$mail->Subject = $email;
+$mail->Body = $message;
 $mail->AltBody = "This is the body in plain text for non-HTML mail clients";
 
 
